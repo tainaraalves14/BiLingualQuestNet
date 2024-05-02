@@ -1,0 +1,21 @@
+data/: Contém os dados usados para treinar, validar e testar o modelo.
+model/: Contém os scripts e arquivos relacionados ao modelo, incluindo a arquitetura do modelo e os pesos salvos.
+scripts/: Contém scripts Python para tarefas específicas, como pré-processamento de dados e avaliação do modelo.
+notebooks/: Contém Jupyter Notebooks para análise exploratória de dados, treinamento de modelo, etc.
+docs/: Contém documentação do projeto, como guia do usuário, README e outras informações relevantes.
+tests/: Contém scripts de teste para garantir a integridade e a funcionalidade do código.
+requirements.txt: Lista todas as dependências do projeto para facilitar a instalação.
+
+
+train.csv e test.csv (dentro de data/):
+Esses arquivos são usados para armazenar os dados de treinamento e teste para a rede neural. Eles contêm as questões do vestibular em português e inglês, juntamente com o idioma de cada questão.
+model/train_model.py (dentro de model/):
+Este arquivo contém o código para treinar o modelo de rede neural. Ele carrega os dados de treinamento e teste, constrói a arquitetura do modelo, compila o modelo, treina o modelo nos dados de treinamento e avalia o desempenho do modelo nos dados de teste. Depois de treinado, o modelo é salvo em um arquivo para uso posterior.
+scripts/data_preprocessing.py (dentro de scripts/):
+Este arquivo contém o código para pré-processar os dados antes de alimentá-los ao modelo de rede neural. Isso pode incluir etapas como normalização de texto, tokenização, vetorização ou qualquer outro pré-processamento necessário para preparar os dados para treinamento do modelo.
+notebooks/exploratory_data_analysis.ipynb (dentro de notebooks/):
+Este é um arquivo Jupyter Notebook que contém análises exploratórias de dados. Ele é útil para entender melhor os dados antes de treinar o modelo de rede neural. Você pode explorar estatísticas descritivas, visualizações de dados e insights preliminares sobre os dados.
+docs/user_guide.md (dentro de docs/):
+Este arquivo é um guia do usuário que fornece instruções sobre como instalar, usar e contribuir para o projeto. Ele contém informações sobre a instalação de dependências, como usar os scripts e notebooks, e como contribuir com o projeto.
+tests/test_data_preprocessing.py (dentro de tests/):
+Este arquivo contém testes automatizados para garantir que o pré-processamento de dados está funcionando conforme o esperado. Ele verifica se os dados pré-processados correspondem aos dados originais de acordo com as transformações específicas aplicadas durante o pré-processamento.

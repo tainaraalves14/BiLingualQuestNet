@@ -1,0 +1,4 @@
+Este arquivo contém o código para treinar o
+modelo de rede neural. Ele carrega os dados
+de treinamento e teste, constrói a arquitetura
+do modelo, compila o modelo, treina o modelo nos dados de treinamento e avalia o desempenho do modelo nos dados de teste. Depois de treinado, o modelo é salvo em um arquivo para uso posterior.

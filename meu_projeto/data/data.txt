@@ -1,0 +1,4 @@
+Esses arquivos são usados para armazenar os
+dados de treinamento e teste para a rede neural. 
+Eles contêm as questões do vestibular em português e inglês,
+juntamente com o idioma de cada questão.
